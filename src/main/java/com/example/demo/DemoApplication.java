@@ -20,7 +20,7 @@ public class DemoApplication {
 	@Bean
 	public String devApp(){
 		System.out.println("ur in dev environment");
-		return "I will be available in profile dev";
+		return "I will be available in profiles dev";
 	}
 	
 	
@@ -28,6 +28,6 @@ public class DemoApplication {
 	@Bean
 	public String qaApp(){
 		System.out.println("ur in qa environment");
-		return "I will be available in profile QA";
+		return "I will be available in profiles QA";
 	}
 }
