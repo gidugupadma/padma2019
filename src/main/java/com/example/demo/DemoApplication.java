@@ -13,6 +13,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 		
 		System.out.println("demo application for profiles in spring boot");
+		System.out.println("demo application for profiles in spring boot");
 	}
    
 	
