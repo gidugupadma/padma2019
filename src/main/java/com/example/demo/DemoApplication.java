@@ -20,7 +20,7 @@ public class DemoApplication {
 	@Bean
 	public String devApp(){
 		System.out.println("ur in dev environment");
-		return "I will be available in profile dev";
+		return "I will be available in profile dev please check the environment first while deploying code";
 	}
 	
 	
